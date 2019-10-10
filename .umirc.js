@@ -5,4 +5,13 @@ export default {
       component: './index',
     },
   ],
+  plugins: [
+    [
+      'umi-plugin-react',
+      {
+        antd: true,
+      },
+    ],
+  ],
 };
+
